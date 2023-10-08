@@ -1,6 +1,59 @@
-.img-art{
+.img-pollo {
     width: 550px;
     height: 350px;
     overflow: hidden;
     align-content: center;
+    box-shadow: 3px 3px 10px #aaa;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+article {
+    border-top: 2px solid  #32384D;
+    border-bottom: 2px solid  #32384D;
+    padding: 15px 5px;
+}
+
+#pollito {
+    background-color: #1E0000;
+}
+
+#pollito h2 {
+    text-align: center;
+    font-size: 1.7em;
+    text-shadow: 5px -4px 5px #785A46,
+        7px -5px 5px #aaa;
+    color: #D24136;
+}
+
+#pollito figcaption {
+    text-align: left;
+    font-size: 0.77em;
+    margin-top: 5px;
+    color: #aaa;
+
+}
+
+#pollito h3 {
+    color: #9D331F;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pollito li {
+    list-style: none;
+}
+
+#pollito p {
+    font-size: 1em;
+    color: #EBB582;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #EB8A3E;
+    font-weight: bold;
+    font-style: italic;
 }

@@ -1,46 +1,75 @@
-*{
-  /*   margin:0;
-    padding: 0; */
+body {
+    margin: 0;
+    padding: 0;
 }
-.img-art{
+
+.img-pollo {
     width: 550px;
     height: 350px;
     overflow: hidden;
     align-content: center;
+    box-shadow: 5px 5px 10px #888888;
 }
-.img-ruso{
+
+.img-ruso {
     width: 450px;
     overflow: hidden;
     align-content: center;
 }
-#ruso{
+
+#ruso {
     background-color: rgb(146, 151, 156);
-    
+
 }
-#ruso li{
- 
-    
-}
-article{
+
+#ruso li {}
+
+article {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 15px 5px;
 }
-#pollito{
-    background-color: blanchedalmond;
+
+#pollito {
+    background-color: #D2B884;
 }
-#pollito figcaption{
+
+#pollito h2 {
     text-align: center;
-    font-size: 0.5em;
+    font-size: 1.7em;
+    /* text-decoration: underline; */
+    text-shadow: 5px -4px 5px rgb(241, 162, 44),
+                 7px -5px 5px black;
+    color: rgb(41, 179, 41);
 }
-#pollito li{
- list-style: none;
+
+#pollito figcaption {
+    text-align: left;
+    font-size: 0.77em;
+    margin-top: 5px;
+    color: #444343cc;
+
 }
-#pollito p{
+
+#pollito h3 {
+    color: green;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pollito li {
+    list-style: none;
+}
+
+#pollito p {
     font-size: 1em;
-    color: darkgray;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 1.2em;
-    color: green   
+    color: green;
+    font-weight: bold;
+    font-style: italic;
 }
