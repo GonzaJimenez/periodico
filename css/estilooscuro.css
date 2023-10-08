@@ -5,14 +5,37 @@
     align-content: center;
     box-shadow: 3px 3px 10px #aaa;
 }
-body{
+
+.img-ruso {
+    width: 450px;
+    overflow: hidden;
+    align-content: center;
+}
+
+body {
     padding: 0;
     margin: 0;
 }
+
 article {
-    border-top: 2px solid  #32384D;
-    border-bottom: 2px solid  #32384D;
+    border-top: 2px solid #32384D;
+    border-bottom: 2px solid #32384D;
     padding: 15px 5px;
+}
+
+section {
+    float: left;
+    width: 74%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    background-color: #32384D;
+}
+
+footer {
+    clear: both;
 }
 
 #pollito {
@@ -56,4 +79,38 @@ article {
     color: #EB8A3E;
     font-weight: bold;
     font-style: italic;
+}
+
+.publicidad {}
+
+.publicidad ul {
+    padding-inline-start: 0;
+}
+
+.publicidad li {
+    list-style: none;
+
+}
+
+.publicidad span {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.publicidad figure {
+    margin: 20px;
+    overflow: hidden;
+    /* width: fit-content; */
+}
+
+.publicidad figcaption {
+    color: #aaa;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.publicidad img {
+    width: -webkit-fill-available;
 }
