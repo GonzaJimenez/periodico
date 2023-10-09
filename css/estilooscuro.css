@@ -1,6 +1,116 @@
-.img-art{
+.img-pollo {
     width: 550px;
     height: 350px;
     overflow: hidden;
     align-content: center;
+    box-shadow: 3px 3px 10px #aaa;
+}
+
+.img-ruso {
+    width: 450px;
+    overflow: hidden;
+    align-content: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+article {
+    border-top: 2px solid #32384D;
+    border-bottom: 2px solid #32384D;
+    padding: 15px 5px;
+}
+
+section {
+    float: left;
+    width: 74%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    background-color: #32384D;
+}
+
+footer {
+    clear: both;
+}
+
+#pollito {
+    background-color: #1E0000;
+}
+
+#pollito h2 {
+    text-align: center;
+    font-size: 1.7em;
+    text-shadow: 5px -4px 5px #785A46,
+        7px -5px 5px #aaa;
+    color: #D24136;
+}
+
+#pollito figcaption {
+    text-align: left;
+    font-size: 0.77em;
+    margin-top: 5px;
+    color: #aaa;
+
+}
+
+#pollito h3 {
+    color: #9D331F;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pollito li {
+    list-style: none;
+}
+
+#pollito p {
+    font-size: 1em;
+    color: #EBB582;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.subtitulo {
+    font-size: 1.2em;
+    color: #EB8A3E;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.publicidad {}
+
+.publicidad ul {
+    padding-inline-start: 0;
+}
+
+.publicidad li {
+    list-style: none;
+
+}
+
+.publicidad span {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.publicidad figure {
+    margin: 20px;
+    overflow: hidden;
+    /* width: fit-content; */
+}
+
+.publicidad figcaption {
+    color: #aaa;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.publicidad img {
+    width: -webkit-fill-available;
 }
