@@ -10,7 +10,7 @@ p:nth-child(odd){
     background-color: purple;
     border: 2px solid blueviolet;
     display: flex;
-    height: 500px;
+    /* height: 500px; */
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
@@ -37,7 +37,7 @@ p:nth-child(odd){
 .caja{
     border: 2px solid black;
     /* margin: 10px; */
-    width: 100px;
+    width: 40%;
     height: 100px;  
     /* text-align: center;     */
     font-size: 46px;  

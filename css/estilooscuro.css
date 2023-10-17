@@ -9,15 +9,29 @@ article {
     padding: 15px 5px;
 }
 
+main{
+    display: flex;
+}
+
 section {
-    float: left;
+    /* float: left; */
     width: 74%;
 }
 
 aside {
-    float: right;
+    /* float: right; */
     width: 25%;
     background-color: #32384D;
+}
+
+article:nth-child(odd){
+    background-color: #202020;
+    color: #F1F1F1;
+}
+
+article:nth-child(even){
+    background-color: #1E0000;
+    color: #EBB582;
 }
 
 /* mutante ruso - primer noticia */
@@ -36,9 +50,9 @@ aside {
     box-shadow: 3px 3px 10px #aaa;
 }
 
-#pollito {
-    background-color: #1E0000;
-}
+    /* #pollito {
+        background-color: #1E0000;
+    } */
 
 #pollito h2 {
     text-align: center;
@@ -68,7 +82,7 @@ aside {
 
 #pollito p {
     font-size: 1em;
-    color: #EBB582;
+    /* color: #EBB582; */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -81,10 +95,8 @@ aside {
 
 /* Joesthetics */
 .jo-notice {
-    background-color: #202020;
-    color: #F1F1F1;
     font-family: jost;
-    height: 1400px;
+    /* height: 1400px; */
     /* no sé qué tan bien está ir agregando el height a las cosas */
 }
 
@@ -93,7 +105,7 @@ aside {
 }
 
 .j-video {
-    width: 80%;
+    width: 560px; /* no sé si hice bien en ponerlo con px */
     margin: 0 auto;
 }
 
@@ -106,15 +118,20 @@ aside {
     padding: 0 10px;
 }
 
+.nosequeponer{
+    display: flex;
+    flex-direction: row;
+}
+
 .j-segundo {
     width: 50%;
-    float: left;
 }
 
 .j-img {
     width: 40%;
+    /* display: flex; */
     margin: 0 auto;
-    float: left;
+    
     padding: 40px 20px;
 }
 
@@ -124,7 +141,7 @@ aside {
     background-color: #283526;
     color: beige;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 2800px;
+    /* height: 2800px; */
 }
 
 .cbum-notice h2 {
@@ -141,14 +158,27 @@ aside {
     margin: 0 auto;
 }
 
-.c-rutina {
-    width: 40%;
-    float: left;
+.rutina{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    
 }
+
+.rutina-dia {
+    width: 40%;
+
+}
+
+/* Ronnie Coleman */
+
+
 
 /* aside - publicidad */
 
-.publicidad {}
+/* .publicidad {} */
 
 .publicidad ul {
     padding-inline-start: 0;
