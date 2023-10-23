@@ -35,10 +35,21 @@ article:nth-child(even){
 }
 
 /* mutante ruso - primer noticia */
-.img-ruso {
-    width: 450px;
-    overflow: hidden;
-    align-content: center;
+.ruso-img {
+    width: 70%;
+    max-width: 100%;
+    /* overflow: hidden; */
+    /* align-content: center; */
+    margin: 0 auto;
+}
+.ruso-primero{
+    width: 30%;
+}
+.contenedor-pri{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* superalimento - segunda noticia */
