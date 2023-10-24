@@ -5,46 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City Sports</title>
-    <!-- <link rel="stylesheet" href="css/estiloclaro.css"> -->
-    <link rel="stylesheet" href="css/estilooscuro.css">
+    <link rel="stylesheet" href="css/estiloclaro.css">
+    <!-- <link rel="stylesheet" href="css/estilooscuro.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@600&display=swap" rel="stylesheet">
 
     <link rel="icon" type="image/png" sizes="32x32" href="recursos/img/citysporticono.ico">
 </head>
 
 <body>
-    <header>
-        <h1>
+    <header class="header">
+        <!-- <h1>
             CitySports
-        </h1>
-
-        <a href="index.html">Inicio</a>
-        <a href="">Galeria</a>
-        <a href="">Contacto</a>
+        </h1> -->
+        <div class="logo">
+            <img src="recursos/img/citysporticono.ico" alt="Logo de nuestro portal de noticias">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li> <a href="index.html">Inicio</a></li>
+                <li><a href="">Galeria</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section>
             <!-- Illia Golem EL Ruso Fisicoculturista -->
             <article id="ruso">
                 <h2>La increible dieta de Illia Golem, el fisicoculturista monstruoso del mundo</h2>
-                <p>El checo <strong>Illia Golem</strong>, que se convirtió en uno de los culturistas más reconocidos de
-                    Estados Unidos, reconoció recientemente que su meta de pequeño era llegar a ser como Arnold
-                    Schwarzenegger y Sylvester Stallone. Sin embargo, su cuerpo mutó de una forma increíble
-                    transformándose en “el culturista más monstruoso del mundo”, como lo apodaron en las redes sociales.
-                </p>
-                <figure>
-                    <img class="img-ruso" src="recursos/img/Illia-Golem.avif"
-                        alt="Fisico actual de frente y espalda de Illia">
-                    <figcaption>Torso y espalda del ruso mutante</figcaption>
-                </figure>
-                <p>Pero mantener su físico no es algo fácil, sobre todo por la dieta diaria que debe llevar. En una
-                    entrevista con el sitio Men’s Healt, el culturista de 35 años aseguró que ingiere 16.500 calorías
-                    por día, repartidas en siete comidas y en las que predominan el sushi y la carne (2,5 kilos de
-                    filetes).
-                </p>
-                <audio src="recursos/audio/prueba.opus"></audio>
+                <div class="contenedor-pri">
+                    <!-- <div class="ruso-primero"> -->
+                    <div class="ruso-intro">
+                        <p>El checo <strong>Illia Golem</strong>, que se convirtió en uno de los culturistas más
+                            reconocidos de
+                            Estados Unidos, reconoció recientemente que su meta de pequeño era llegar a ser como
+                            Arnold
+                            Schwarzenegger y Sylvester Stallone. Sin embargo, su cuerpo mutó de una forma increíble
+                            transformándose en “el culturista más monstruoso del mundo”, como lo apodaron en las
+                            redes
+                            sociales.
+                        </p>
+                        <p>Pero mantener su físico no es algo fácil, sobre todo por la dieta diaria que debe llevar.
+                            En
+                            una entrevista con el sitio Men’s Healt, el culturista de 35 años aseguró que ingiere
+                            16.500
+                            calorías
+                            por día, repartidas en siete comidas y en las que predominan el sushi y la carne (2,5
+                            kilos
+                            de filetes).
+                        </p>
+                    </div>
+                    <div class="ruso-img">
+                        <figure>
+                            <img src="recursos/img/Illia-Golem.jpg" alt="Fisico actual de frente y espalda de Illia">
+                            <figcaption style="text-align: center;">Torso y espalda del ruso mutante</figcaption>
+                        </figure>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- <audio src="recursos/audio/prueba.opus" controls></audio> -->
                 <p>
                     La dieta diaria de Illia Golem
                 </p>
@@ -65,8 +86,7 @@
                     la
                     ayuda del dueño del gimnasio”. El culturista, que de joven era fanático del esquí, el ciclismo y el
                     tenis, hoy registra increíbles récords personales en press de banca (270 kilos), peso muerto (315
-                    kilos)
-                    y sentadillas (315 kilos). Actualmente su fisiologia es de 1,85 metros de altura y 158 kilos.
+                    kilos) y sentadillas (315 kilos). Actualmente su fisiologia es de 1,85 metros de altura y 158 kilos.
                 </p>
 
             </article>
@@ -108,9 +128,9 @@
                 <ul>
 
                     <li>
-                        <p><span class="subtitulo">Saciación: </span> Por su contenido de proteínas, las mismas ayudan a
-                            sentir la sensación de plenitud
-                            que permite hacer un stop en cada comida, sin comer de más.
+                        <p><span class="subtitulo">Saciación: </span>
+                            Por su contenido de proteínas, las mismas ayudan a
+                            sentir la sensación de plenitud que permite hacer un stop en cada comida, sin comer de más.
                         </p>
                     </li>
                     <li>
@@ -118,18 +138,15 @@
                             <span class="subtitulo">Mantenimiento de masa libre de grasa: </span>
 
                             las proteínas consumidas, en el marco de una alimentación completa y saludable y una
-                            vida
-                            activa, sostienen la masa muscular y, por tanto, el descenso de peso logrado.
+                            vida activa, sostienen la masa muscular y, por tanto, el descenso de peso logrado.
                         </p>
                     </li>
                     <li>
                         <p>
                             <span class="subtitulo"> Prevención de sarcopenia:</span>
                             los alimentos fuentes de proteínas, como la carne de pollo, en el marco de una
-                            alimentación
-                            completa y saludable, junto con la realización de ejercicio físico (de fuerza,
-                            preferentemente) ayuda a prevenir o retrasar el inicio de la sarcopenia, que es la
-                            pérdida
+                            alimentación completa y saludable, junto con la realización de ejercicio físico (de fuerza,
+                            preferentemente) ayuda a prevenir o retrasar el inicio de la sarcopenia, que es la pérdida
                             progresiva de masa y función muscular.
                         </p>
                     </li>
@@ -152,25 +169,22 @@
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe>
                 </div>
-                <div class="j-primero content">
+                <div class="j-primero">
                     <p>
                         El culturista e influencer Jo Lindner, que tenía más de 9 millones de seguidores en Instagram
-                        como
-                        Joesthetics y desaconsejaba el uso de esteroides tras reconocer que él los había utilizado
+                        como Joesthetics y desaconsejaba el uso de esteroides tras reconocer que él los había utilizado
                         (sufriendo ginecomastia). , ha muerto a los 30 años por un aneurisma cerebral.
                     </p>
                     <p>
                         La opinión popular fue que la causa de muerte fue por el uso excesivo de esteroides pero La
-                        novia de
-                        Jo Linder desmintió que la muerte del famoso fisioculturista se debiese al consumo indebido
-                        esteroides: "No es justo que alguien simplemente adivine cómo murió o diga que sufrió una
-                        sobredosis. No es justo. Jo fue lo suficientemente valiente como para admitir que usaba
-                        esteroides,
-                        eso no es razón para creer lo que se dice".
+                        novia de Jo Linder desmintió que la muerte del famoso fisioculturista se debiese al consumo
+                        indebido esteroides: "No es justo que alguien simplemente adivine cómo murió o diga que sufrió
+                        una sobredosis. No es justo. Jo fue lo suficientemente valiente como para admitir que usaba
+                        esteroides, eso no es razón para creer lo que se dice".
                     </p>
                 </div>
                 <div class="nosequeponer"> <!-- CAMBIAR NOMBRE DE LA CLASE -->
-                    <div class="j-segundo content">
+                    <div class="j-segundo">
                         <h3>¿A qué se debió la murte de Jo Lindner?</h3>
                         <p>
                             Sin una autopsia o un informe médico, más allá de las declaraciones de su novia, no podemos
@@ -180,9 +194,7 @@
                         <p>
                             No obstante, debemos recordar que un aneurisma es una zona debilitada en la pared de un vaso
                             sanguíneo. Se calcula que una de cada cincuenta personas tienen un aneurisma en el cerebro,
-                            pero
-                            en
-                            muy pocos casos este llega a romperse.
+                            pero en muy pocos casos este llega a romperse.
                         </p>
                         <p>
                             No obstante, si se acumulan coágulos, es más fácil que se produzca dicha rotura y, con ella,
@@ -214,19 +226,21 @@
                         </p>
                     </div>
                     <div class="j-img">
-                        <img src="recursos/img/jolindner.jpeg" alt="Jo Lindner haciendo possing">
-                        <figcaption style="text-align: center;">
-                            Jo Linder, más conocido como Joesthetics
-                        </figcaption>
+                        <figure>
+                            <img src="recursos/img/jolindner.jpeg" alt="Jo Lindner haciendo possing">
+                            <figcaption style="text-align: center;">
+                                Jo Linder, más conocido como Joesthetics
+                            </figcaption>
+                        </figure>
                     </div>
                 </div>
             </article>
             <!-- Rutina CBUM -->
-            <article class="cbum-notice" style="clear: both;">
+            <article class="cbum-notice">
                 <h2>¿Cuál es la rutina de CBUM?</h2>
                 <h3>El cuatro veces campeón de Mister Olympia Classic, Chris Bumstead, más conocido como CBUM, nos
                     enseña cuál es su rutina</h3>
-                <div class="content">
+                <div>
                     <p>
                         Chris Bumstead es probablemente uno de los deportistas más populares en las redes sociales.
                         Desde
@@ -372,7 +386,7 @@
 
                 <h4>Esta es su rutina:(modificar titulo wachin)</h4>
                 <div class="rutina">
-                    <div class="rutina-dia content">
+                    <div class="rutina-dia">
                         <h5>Día 1: Espalda</h5>
                         <ul>
                             <li>Peso muerto: 4 x 10/8/8/Fallo</li>
@@ -385,7 +399,7 @@
                         </ul>
                     </div>
 
-                    <div class="rutina-dia content">
+                    <div class="rutina-dia">
                         <h5>
                             Día 2: Pecho - Biceps
                         </h5>
@@ -402,7 +416,7 @@
                         </ul>
                     </div>
 
-                    <div class="rutina-dia content">
+                    <div class="rutina-dia">
                         <h5>
                             Día 3: Isquios-Gluteos
                         </h5>
@@ -414,7 +428,7 @@
                             <li>Pushdown de glúteo en máquina: 3 x 12-15</li>
                         </ul>
                     </div>
-                    <div class="rutina-dia content">
+                    <div class="rutina-dia">
                         <h5>
                             Día 4: Hombros-Triceps
                         </h5>
@@ -432,7 +446,7 @@
                             <li>Patada de tríceps en cable: 3 x 12/10/8</li>
                         </ul>
                     </div>
-                    <div class="rutina-dia content">
+                    <div class="rutina-dia">
                         <h5>
                             Día 5: Cuádriceps
                         </h5>
@@ -446,64 +460,158 @@
                     </div>
                 </div>
 
-                <div class="c-video">
-                    <video src="recursos/video/CBum-posing.mp4" width="550px" height="350px" autoplay controls
-                        muted></video>
-                    <figcaption>
-                        CBUM posando en Mister Olympia Classic, donde salió galardonado en 4 ocasiones.
-                    </figcaption>
+                <div>
+                    <div class="">
+                        <p>
+                            Claramente, esto ha servido ya que CBUM logró cautivar a la audiencia con su presencia
+                            imponente
+                            y su notable definición muscular. Su enfoque meticuloso en el entrenamiento y la nutrición
+                            se
+                            reflejó en cada uno de sus movimientos, demostrando una combinación perfecta de tamaño,
+                            simetría
+                            y definición muscular, lo que le permitió destacarse entre los mejores competidores del
+                            mundo.
+                        </p>
+                        <p>
+                            En el video de su actuación en el Mister Olympia (donde salió galardonado en 4 ocasiones),
+                            se puede apreciar la dedicación y la
+                            pasión de
+                            CBum por perfeccionar cada detalle de su físico, destacando su impecable forma y su
+                            imponente
+                            presencia en el escenario. Su gracia y su poderío físico se entrelazan en una exhibición
+                            cautivadora que refleja su compromiso con la excelencia y su determinación por alcanzar la
+                            perfección física.
+                        </p>
+                    </div>
+                    <div class="c-video">
+                        <!-- colocar el correspondiente al video -->
+                        <video src="recursos/video/CBum-posing.mp4" width="550px" height="350px" controls muted></video>
+                    </div>
                 </div>
 
             </article>
             <!-- Ronnie Coleman -->
-            <article>
+            <article class="ronnie-notice">
                 <h2>¿Qué le pasó a Ronnie Coleman? El Mr. Olympia que no puede caminar y no deja de entrenar</h2>
-                <h3>La historia del exfisicoculturista profesional estadounidense es de superación, pero hoy en día no
+                <h3 class="r-bajada">La historia del exfisicoculturista profesional estadounidense es de superación,
+                    pero hoy en día no
                     la está pasando muy bien.</h3>
-                <div class="content">
-                    <img src="recursos/img/ronnie-coleman.png" alt="Ronnie Coleman">
-                    <p>Ronnie Coleman es una figura icónica en el mundo del fisicoculturismo. Su historia de
-                        determinación, dedicación y superación ha dejado una huella imborrable en la comunidad fitness.
-                    </p>
-                    <p>
-                        Desde sus humildes comienzos hasta convertirse en ocho veces Mr. Olympia, Coleman marcó una era
-                        en este deporte, pero hoy los años le han cobrado lo que ha sido considerados por muchos
-                        expertos como un exceso en sus entrenamientos, con el fin de obtener el cuerpo deseado para su
-                        actividad profesional.
-                    </p>
-                    <p>Acá te dejamos su mitico "yeah buddy"</p>
-                    <audio src="recursos/audio/ronniecoleman.mp3" controls></audio>
+                <div class="r-cuerpo-intro">
+                    <div class="r-intro-img">
+                        <figure>
+                            <img src="https://hips.hearstapps.com/hmg-prod/images/whatsapp-image-2023-04-17-at-11-03-07-643d0d311a13d.jpeg?resize=980:*"
+                                alt="Ronnie Coleman">
+                            <figcaption>
+                                Ronnie Coleman junto a Jay Cutler y Regan Grimes
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="r-intro-text">
+                        <p>
+                            Ronnie Coleman es una figura icónica en el mundo del fisicoculturismo. Su historia de
+                            determinación, dedicación y superación ha dejado una huella imborrable en la comunidad
+                            fitness.
+                        </p>
+                        <p>
+                            Desde sus humildes comienzos hasta convertirse en ocho veces Mr. Olympia, Coleman marcó una
+                            era en este deporte, pero hoy los años le han cobrado lo que ha sido considerados por muchos
+                            expertos como un exceso en sus entrenamientos, con el fin de obtener el cuerpo deseado para
+                            su actividad profesional.
+                        </p>
+                    </div>
                 </div>
-                <div class="content">
-                    <h3>¿Qué le pasó a Ronnie Coleman?</h3>
-                    <p>
-                        Después de una carrera indiscutible y llena de reconocimientos, ahora Ronnie Coleman se
-                        encuentra
-                        enfrentando una dura realidad. Después de años de entrenamientos intensos y sacrificios para
-                        forjar
-                        su cuerpo imponente, ahora se ve limitado en gran medida por problemas de salud que lo han
-                        llevado a
-                        depender de una silla de ruedas.
-                    </p>
-                    <p>
-                        Después de años de someter su cuerpo a entrenamientos extenuantes, incluyendo la realización de
-                        sentadillas con cargas de hasta 270 kilos, Coleman ha sufrido múltiples hernias de disco. Estas
-                        lesiones en su columna vertebral han afectado gravemente su calidad de vida, pero esta situación
-                        de
-                        salud no lo ha limitado a seguir entrenando, porque es su pasión que le da fuerza para seguir
-                        adelante.
-                    </p>
+
+                <div class="r-cuerpo-desc">
+                    <div class="r-desc-text">
+                        <h3>¿Qué le pasó a Ronnie Coleman?</h3>
+                        <p>
+                            Después de una carrera indiscutible y llena de reconocimientos, ahora Ronnie Coleman se
+                            encuentra
+                            enfrentando una dura realidad. Después de años de entrenamientos intensos y sacrificios para
+                            forjar
+                            su cuerpo imponente, ahora se ve limitado en gran medida por problemas de salud que lo han
+                            llevado a
+                            depender de una silla de ruedas.
+                        </p>
+                        <p>
+                            Después de años de someter su cuerpo a entrenamientos extenuantes, incluyendo la realización
+                            de
+                            sentadillas con cargas de hasta 270 kilos, Coleman ha sufrido múltiples hernias de disco.
+                            Estas
+                            lesiones en su columna vertebral han afectado gravemente su calidad de vida, pero esta
+                            situación
+                            de
+                            salud no lo ha limitado a seguir entrenando, porque es su pasión que le da fuerza para
+                            seguir
+                            adelante.
+                        </p>
+                    </div>
+                    <div class="r-desc-video">
+                        <iframe width="560" height="315"
+                            src="https://www.youtube.com/embed/9vWgSTdkc2A?si=O5sdXjDMvLnPuLWV"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <h3>A continuación, algunos de sus logros más destacados</h3>
+                <div class="r-logros">
+                    <table>
+                        <tr>
+                            <th>N°</th>
+                            <th>Competición</th>
+                            <th>Año/s</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Mr. Texas</td>
+                            <td>1990</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>IFBB World Amateur Championships</td>
+                            <td>1991</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>IFBB Canada Pro Cup</td>
+                            <td>1995</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>IFBB Grand Prix de Rusia</td>
+                            <td>1997</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>IFBB Grand Prix de Alemania</td>
+                            <td>1998</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Arnold Classic</td>
+                            <td>2001, 2002, 2003, 2004</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Mr. Olympia</td>
+                            <td>1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005</td>
+                        </tr>
+                    </table>
+                    <!-- <img style="width: 560px;" src="recursos/img/ronniecutler.webp"
+                        alt="Ronnie Coleman posando junto a Jay Cutler">                    
+                    <img style="width: 560px;" src="recursos/img/ronnie-king.jpg" alt="Ronnie Coleman vestido de rey"> -->
                 </div>
                 <div>
-                    <h4>A continuación, momentos épicos de Ronnie Coleman</h4>
-                    <img style="width: 560px;" src="recursos/img/ronniecutler.webp"
-                        alt="Ronnie Coleman posando junto a Jay Cutler">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9vWgSTdkc2A?si=O5sdXjDMvLnPuLWV"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>
-                    <img style="width: 560px;" src="recursos/img/ronnie-king.jpg" alt="Ronnie Coleman vestido de rey">
+                    <p>
+                        En conclusión, a pesar de los desafíos físicos a los que se ha enfrentado, Ronnie Coleman sigue
+                        siendo una figura influyente en la comunidad del culturismo y una inspiración para muchos que
+                        siguen su carrera y su trayectoria personal. Su legado en el culturismo continúa dejando una
+                        marca duradera en la historia de este deporte.
+                    </p>
                 </div>
+                <p>Acá te dejamos su mitico "yeah buddy" (no sé cómo ponerlo de manera diferente)</p>
+                <audio src="recursos/audio/ronniecoleman.mp3" controls></audio>
             </article>
         </section>
         <aside>
