@@ -19,12 +19,12 @@ section {
 
 aside {
     width: 25%;
-    background-color: #d8d6d6;
+    background-color: #A7A145;
     /* Habría que cambiar este color bc no me convence*/
 }
 
 article:nth-child(odd) {
-    background-color: #F1F1F1;
+    background-color: #C5BE51;
     color: #202020;
     font-family: 'Jost', sans-serif;
 }
@@ -39,7 +39,7 @@ article:nth-child(even) {
 .header {
     /* background-color: #1E0000; */
     /* background-color: #b39f7a; */
-    background-color: #d8d6d6;
+    background-color: #C5BC76;
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -93,12 +93,22 @@ article:nth-child(even) {
 
 /* mutante ruso - primer noticia */
 #ruso {
-    padding: 0 .8em;
+    padding: 0.8em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color: #8A7C37;
 }
 
-.ruso-intro {
+.ruso-pri {
     width: 30%;
     display: inline-block;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.ruso-seg{
+    text-align: justify;
+    padding: 0.4em;
 }
 
 .ruso-img {
@@ -116,7 +126,7 @@ article:nth-child(even) {
 
 .contenedor-pri {
     display: flex;
-    flex-direction: rox;
+    flex-direction: row;
     align-items: center;
     /* justify-content: center; */
 }
@@ -143,7 +153,7 @@ article:nth-child(even) {
     /* text-decoration: underline; */
     text-shadow: 5px -4px 5px rgb(241, 162, 44),
         7px -5px 5px black;
-    color: rgb(41, 179, 41);
+    color: #504C30;
 }
 
 #pollito figcaption {
@@ -155,7 +165,7 @@ article:nth-child(even) {
 }
 
 #pollito h3 {
-    color: green;
+    color: #504C30;
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -172,15 +182,15 @@ article:nth-child(even) {
 
 .subtitulo {
     font-size: 1.2em;
-    color: green;
+    color: #555344;
     font-weight: bold;
     font-style: italic;
 }
 
 /* Joesthetics */
 .jo-notice {
-    /* background-color:#F1F1F1;
-    color: #202020; */
+    background-color:#DBD02E;
+    /* color: #202020; */
     /* font-family: jost; */
     /* height: 1400px;  */
     /* no sé qué tan bien está ir agregando el height a las cosas */
@@ -319,7 +329,7 @@ table {
 }
 
 tr:nth-child(odd) {
-    background-color: #cccaca;
+    background-color: #666115;
 }
 
 td:nth-child(1) {
@@ -372,5 +382,11 @@ th {
 
 /* footer */
 footer {
-    clear: both;
+    background-color: #C5BC76;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
 }
