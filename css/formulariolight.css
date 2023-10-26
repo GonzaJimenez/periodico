@@ -1,0 +1,150 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #817d7da9;
+}
+
+.header {
+    background-color: #d8d6d6;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header span {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    transition: all .3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header span:hover {
+    transform: scale(1.1)
+}
+
+.header span:hover {
+    color: rgba(99, 87, 212, 0.719);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1)
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: #202020;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: rgba(99, 87, 212, 0.719);
+}
+
+.title-contact {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+fieldset {
+    padding: 1em;
+    border-style: outset;
+}
+
+legend {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: rgba(99, 87, 212, 0.719);
+}
+
+ul {
+    list-style: none;
+}
+
+form li {
+    margin-top: 1em;
+}
+
+label {
+    color: rgb(68, 52, 209);
+
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+#btnEnviar {
+    font-size: 1em;
+    margin: 1em auto;
+    text-align: center;
+    padding: 5px;
+    width: 450px;
+    border-radius: 3px;
+}
+
+#btnEnviar:hover {
+    color: white;
+    background-color: gray;
+}
+
+.chk-contenedor {
+    display: flex;
+    width: 250px;
+}
+
+.chk-titulo {
+    color: rgb(68, 52, 209);
+    width: 200px;
+    text-align: left;
+}
+
+.chk-contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer {
+    text-align: center;
+    background-color: #797676;
+    color: #fff9f9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a {
+    color: black;
+}

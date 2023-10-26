@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- <link rel="stylesheet" href="css/formulariolight.css"> -->
+    <link rel="stylesheet" href="css/formulariodark.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="recursos/img/citysporticono.ico">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <span>
+            <strong>CitySports</strong>
+        </span>
+        <div class="logo">
+            <img src="recursos/img/citysporticono.ico" alt="Logo de nuestro portal de noticias">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li> <a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <form name="formPrincipal" action="" method="post">
+            <fieldset>
+                <legend>Contacto</legend>
+                <ul>
+                    <li>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Arnold" required>
+                    </li>
+                    <li>
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Schwarzenegger" required>
+                    </li>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required>
+                    </li>
+                    <li>
+                        <label for="genero">Género:</label>
+                        <select name="genero" id="genero" required>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="No-Binario">No-Binario</option>
+                        </select>
+                    </li>
+                </ul>
+            </fieldset>
+
+            <fieldset>
+                <div class="chk-contenedor">
+                    <label for="topic-check" class="chk-titulo">¿Qué preferis ver más en nuestro sitio?</label>
+                    <div class="chk-contenedor2">
+                        <label for="chk-1">
+                            <input type="checkbox" name="topic-opt" id="chk-1" value="nutricion">
+                            Nutrición
+                        </label>
+                        <label for="chk-2">
+                            <input type="checkbox" name="topic-opt" id="chk-2" value="eventos">
+                            Eventos
+                        </label>
+                        <label for="chk-3">
+                            <input type="checkbox" name="topic-opt" id="chk-3" value="deportes">
+                            Deportes
+                        </label>
+                        <label for="chk-4">
+                            <input type="checkbox" name="topic-opt" id="chk-4" value="rutinas">
+                            Rutinas Gym
+                        </label>
+                        <label for="chk-5">
+                            <input type="checkbox" name="topic-opt" id="chk-5" value="otros">
+                            Otros
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <label for="radio-KGcantidad" style="text-align: left;"> ¿Cuánto peso levantas?</label>
+
+                    <label for="peso-pluma">
+                        <input type="radio" name="KGcantidad" id="peso-liviano" value="15-30"> 15-30 Kg
+                    </label>
+                    <label for="peso-mediano">
+                        <input type="radio" name="KGcantidad" id="peso-mediano" value="30-60" checked> 30-60 Kg
+                    </label>
+                    <label for="peso-pesado">
+                        <input type="radio" name="KGcantidad" id="peso-pesado" value="90+"> 90+ Kg
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentario</legend>
+                <textarea name="comentario" id="comentario" cols="40" rows="5"
+                    placeholder="Escribinos tu comentario..."></textarea>
+            </fieldset>
+            <input type="submit" id="btnEnviar" value="Enviar">
+        </form>
+
+
+
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 City Sports</p>
+        <p>Contáctanos al 444-444-444 o envía un correo a <a href="mailto:contacto@CitySports.com">contacto@CitySports.com</a></p>
+        <!-- <p>Para ver el aviso de privacidad, accede a CitySports.com/contacto</p> -->
+    </footer>
+
+</body>
+
+</html>
