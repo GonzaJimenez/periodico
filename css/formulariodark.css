@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #202020;
+}
+
+.header {
+    background-color: #32384D;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header span {
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    transition: all .3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header span:hover {
+    transform: scale(1.1)
+}
+
+.header span:hover {
+    color: rgb(158, 89, 151);
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1)
+}
+
+.header .nav-links a {
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+    color: rgb(158, 89, 151);
+}
+
+.title-contact {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 450px;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+fieldset {
+    padding: 1em;
+    border-style: outset;
+}
+
+legend {
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: orangered;
+
+}
+
+ul {
+    list-style: none;
+}
+
+form li {
+    margin-top: 1em;
+}
+
+label {
+    color: orange;
+
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+#btnEnviar {
+    font-size: 1em;
+    margin: 1em auto;
+    text-align: center;
+    padding: 5px;
+    width: 450px;
+    border-radius: 3px;
+}
+
+#btnEnviar:hover {
+    color: white;
+    background-color: rgb(139, 42, 131);
+}
+
+.chk-contenedor {
+    display: flex;
+    width: 250px;
+}
+
+.chk-titulo {
+    color: orangered;
+    width: 200px;
+    text-align: left;
+}
+
+.chk-contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background-color: #09091d;
+    color: #635d5d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a {
+    color: darkgray;
+}
