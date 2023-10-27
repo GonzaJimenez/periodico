@@ -19,26 +19,27 @@ section {
 
 aside {
     width: 25%;
-    background-color: #A7A145;
+    background-color: #d8d6d6;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
 
 article:nth-child(odd) {
-    background-color: #C5BE51;
+    background-color: #F1F1F1;
     color: #202020;
     font-family: 'Jost', sans-serif;
 }
 
 article:nth-child(even) {
-    background-color: #D2B884;
+    /* background-color: #D2B884; */
+    background-color: #e1d4ba;
     color: rgb(27, 27, 27);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /* header  */
 .header {
-    background-color: #C5BC76;
+    background-color: #d8d6d6;
     border-bottom: 2px solid black;
     display: flex;
     justify-content: space-between;
@@ -95,17 +96,15 @@ span:hover {
     text-decoration: none;
 }
 
-.header .nav-links li a:hover,
+header .nav-links li a:hover,
 span:hover {
-    color: #887722;
+    color: rgba(99, 87, 212, 0.719);
 }
 
 /* mutante ruso - primer noticia */
 #ruso {
-    padding: 0.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0.8em;    
     font-size: 1em;
-    /* background-color: #8A7C37; */
 }
 
 .ruso-pri {
@@ -247,7 +246,7 @@ span:hover {
 }
 
 .rutina {
-    background-color: #c9a868;
+    background-color: #e0c99a;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -323,7 +322,7 @@ table {
 }
 
 tr:nth-child(odd) {
-    background-color: #948c1f;
+    background-color: #d3d0d0;
 }
 
 td:nth-child(1) {
@@ -358,7 +357,7 @@ th {
 }
 
 .publicidad span {
-    color: white;
+    color: black;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -381,8 +380,8 @@ th {
 
 /* footer */
 footer {
-    background-color: #C5BC76;
-    color: #333;
+    background-color: #797676;
+    color: #fff9f9;
     text-align: center;
     padding: 10px 0;
     width: 100%;
@@ -392,5 +391,5 @@ footer {
 }
 
 footer a {
-    color: #333;
+    color: black;
 }

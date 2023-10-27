@@ -97,15 +97,13 @@ span:hover {
 
 .header .nav-links li a:hover,
 span:hover {
-    color: rgb(113, 129, 219);
+    color: rgb(158, 89, 151);
 }
 
 /* mutante ruso - primer noticia */
 #ruso {
     padding: 0.8em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    background-color: #2B2933;
 }
 
 #ruso h4 {

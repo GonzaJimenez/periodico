@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #817d7da9;
+    background-color: #F1F1F1;
 }
 
 .header {
@@ -86,7 +86,7 @@ fieldset {
 legend {
     text-transform: capitalize;
     font-size: 1.5em;
-    color: rgba(99, 87, 212, 0.719);
+    color: #103508;
 }
 
 ul {
@@ -98,7 +98,7 @@ form li {
 }
 
 label {
-    color: rgb(68, 52, 209);
+    color: #474321;
 
     display: inline-block;
     width: 90px;
@@ -125,7 +125,7 @@ label {
 }
 
 .chk-titulo {
-    color: rgb(68, 52, 209);
+    color: #474321;
     width: 200px;
     text-align: left;
 }
